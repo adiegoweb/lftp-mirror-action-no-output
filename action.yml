@@ -1,4 +1,4 @@
-name: 'lftp-mirror-action'
+name: 'lftp-mirror-action-no-output'
 author: 'Pressidium'
 description: 'Upload or update a directory tree via SFTP'
 inputs:
