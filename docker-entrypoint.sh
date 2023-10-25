@@ -291,7 +291,7 @@ if is_true "${INPUT_ONLYNEWER}"; then
   git config --global --add safe.directory '*'
 
   # Run `git-restore-mtime`
-  /usr/bin/python3 /usr/local/bin/git-restore-mtime --verbose
+  /usr/bin/python3 /usr/local/bin/git-restore-mtime 
 fi
 
 # Transfer files via SFTP
